@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  * @date 2022/7/25 21:03
  */
 @Aspect
-@Component
+//@Component
 public class MyAroundAop {
     //切入点：待增强的方法
     @Pointcut("execution(public * com.neo.controller.*.*(..))")
